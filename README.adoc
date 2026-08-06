@@ -1,4 +1,32 @@
-﻿= architexture-theme
+﻿ifndef::env-github[:icons: font]
+:toc: preamble
+:toclevels: 2
+:sectanchors:
+endif::[]
+
+ifndef::env-github[]
+image:https://img.shields.io/github/contributors/antora-supplemental/architexture-theme.svg?style=for-the-badge[Contributors,link=https://github.com/antora-supplemental/architexture-theme/graphs/contributors]
+image:https://img.shields.io/github/forks/antora-supplemental/architexture-theme.svg?style=for-the-badge[Forks,link=https://github.com/antora-supplemental/architexture-theme/network/members]
+image:https://img.shields.io/github/stars/antora-supplemental/architexture-theme.svg?style=for-the-badge[Stars,link=https://github.com/antora-supplemental/architexture-theme/stargazers]
+image:https://img.shields.io/github/issues/antora-supplemental/architexture-theme.svg?style=for-the-badge[Issues,link=https://github.com/antora-supplemental/architexture-theme/issues]
+endif::[]
+
+ifdef::env-github[]
+image:https://img.shields.io/github/contributors/antora-supplemental/architexture-theme.svg?style=for-the-badge[Contributors]
+image:https://img.shields.io/github/forks/antora-supplemental/architexture-theme.svg?style=for-the-badge[Forks]
+image:https://img.shields.io/github/stars/antora-supplemental/architexture-theme.svg?style=for-the-badge[Stars]
+image:https://img.shields.io/github/issues/antora-supplemental/architexture-theme.svg?style=for-the-badge[Issues]
+endif::[]
+
+= architexture-theme
+
+Bespoke architectural theme for Antora documentation.
+
+link:https://antora-supplemental.github.io/architexture-theme/[View demo] ·
+link:https://github.com/antora-supplemental/architexture-theme/issues[Report Bug] ·
+link:https://github.com/antora-supplemental/architexture-theme/issues[Request Feature]
+
+== About The Project
 
 A bespoke, minimalist architectural theme for Antora documentation, inspired by the "Stone and Graphite" design system.
 
@@ -7,23 +35,26 @@ The npm package `@amdphreak/architexture-theme-antora` is deprecated and unpubli
 link:https://antora-supplemental.github.io/architexture-theme/architexture-theme/guide/npm-deprecation.html[npm deprecation (lessons learned)]
 Catalog: link:https://antora-supplemental.github.io/docs/[Antora Supplemental docs].
 
-== Design Philosophy
+=== Design Philosophy
 
 * **Neutral Palette**: Stone and Graphite high-contrast scheme.
 * **Structural Integrity**: 1px borders, structural grids, and monospace technical metadata.
 * **Minimalism**: Focus on content hierarchy and architectural honesty.
 
-== Hosting Strategy
+=== Hosting Strategy
 
 This project uses a **Path-Based Routing** strategy for GitHub Pages to host both the **Docs** and **Demo** within a single instance:
 
 * **Docs**: https://antora-supplemental.github.io/architexture-theme/architexture-theme/0.1/guide/index.html
 * **Demo**: https://antora-supplemental.github.io/architexture-theme/
 
-== Changelog
-
-This project adheres to the architectural timeline documented in xref:docs/modules/ROOT/pages/changelog.adoc[CHANGELOG.adoc].
-
-== Deployment
+== Usage
 
 Configure your CI/CD (GitHub Actions) to output the builds into these specific subdirectories on the gh-pages branch.
+
+== Contact
+
+Antora Supplemental — support@antora-supplemental.org
+
+* Project: https://github.com/antora-supplemental/architexture-theme
+* Site: https://antora-supplemental.org
