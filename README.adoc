@@ -4,7 +4,55 @@ ifndef::env-github[:icons: font]
 :sectanchors:
 endif::[]
 
-[[readme-top]]
+ifdef::env-github[]
+++++
+<a id="readme-top"></a>
+<div align="center">
+<a href="https://github.com/antora-supplemental/architexture-theme/graphs/contributors"><img src="https://img.shields.io/github/contributors/antora-supplemental/architexture-theme.svg?style=for-the-badge" alt="Contributors"></a>
+<a href="https://github.com/antora-supplemental/architexture-theme/network/members"><img src="https://img.shields.io/github/forks/antora-supplemental/architexture-theme.svg?style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/antora-supplemental/architexture-theme/stargazers"><img src="https://img.shields.io/github/stars/antora-supplemental/architexture-theme.svg?style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/antora-supplemental/architexture-theme/issues"><img src="https://img.shields.io/github/issues/antora-supplemental/architexture-theme.svg?style=for-the-badge" alt="Issues"></a>
+<br />
+<h3 align="center">architexture-theme</h3>
+<p align="center">
+Bespoke architectural theme for Antora documentation.
+<br /><br />
+<a href="https://antora-supplemental.github.io/architexture-theme/">View demo</a>
+&middot;
+<a href="https://github.com/antora-supplemental/architexture-theme/issues">Report Bug</a>
+&middot;
+<a href="https://github.com/antora-supplemental/architexture-theme/issues">Request Feature</a>
+</p>
+</div>
+++++
+endif::[]
+
+ifndef::env-github[]
+
+ifdef::env-github[]
+++++
+<a id="readme-top"></a>
+<div align="center">
+<a href="https://github.com/antora-supplemental/architexture-theme/graphs/contributors"><img src="https://img.shields.io/github/contributors/antora-supplemental/architexture-theme.svg?style=for-the-badge" alt="Contributors"></a>
+<a href="https://github.com/antora-supplemental/architexture-theme/network/members"><img src="https://img.shields.io/github/forks/antora-supplemental/architexture-theme.svg?style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/antora-supplemental/architexture-theme/stargazers"><img src="https://img.shields.io/github/stars/antora-supplemental/architexture-theme.svg?style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/antora-supplemental/architexture-theme/issues"><img src="https://img.shields.io/github/issues/antora-supplemental/architexture-theme.svg?style=for-the-badge" alt="Issues"></a>
+<br />
+<h3 align="center">architexture-theme</h3>
+<p align="center">
+Bespoke architectural theme for Antora documentation.
+<br /><br />
+<a href="https://antora-supplemental.github.io/architexture-theme/">View demo</a>
+&middot;
+<a href="https://github.com/antora-supplemental/architexture-theme/issues">Report Bug</a>
+&middot;
+<a href="https://github.com/antora-supplemental/architexture-theme/issues">Request Feature</a>
+</p>
+</div>
+++++
+endif::[]
+
+ifndef::env-github[]
 image:https://img.shields.io/github/contributors/antora-supplemental/architexture-theme.svg?style=for-the-badge[Contributors,link=https://github.com/antora-supplemental/architexture-theme/graphs/contributors]
 image:https://img.shields.io/github/forks/antora-supplemental/architexture-theme.svg?style=for-the-badge[Forks,link=https://github.com/antora-supplemental/architexture-theme/network/members]
 image:https://img.shields.io/github/stars/antora-supplemental/architexture-theme.svg?style=for-the-badge[Stars,link=https://github.com/antora-supplemental/architexture-theme/stargazers]
@@ -17,6 +65,7 @@ Bespoke architectural theme for Antora documentation.
 link:https://antora-supplemental.github.io/architexture-theme/[View demo] ·
 link:https://github.com/antora-supplemental/architexture-theme/issues[Report Bug] ·
 link:https://github.com/antora-supplemental/architexture-theme/issues[Request Feature]
+endif::[]
 
 == About The Project
 
@@ -40,14 +89,16 @@ This project uses a **Path-Based Routing** strategy for GitHub Pages to host bot
 * **Docs**: https://antora-supplemental.github.io/architexture-theme/architexture-theme/0.1/guide/index.html
 * **Demo**: https://antora-supplemental.github.io/architexture-theme/
 
-link:#readme-top[back to top]
-
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
 == Usage
 
 Configure your CI/CD (GitHub Actions) to output the builds into these specific subdirectories on the gh-pages branch.
 
-link:#readme-top[back to top]
-
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
 == Contact
 
 Antora Supplemental — support@antora-supplemental.org
@@ -55,4 +106,6 @@ Antora Supplemental — support@antora-supplemental.org
 * Project: https://github.com/antora-supplemental/architexture-theme
 * Site: https://antora-supplemental.org
 
-link:#readme-top[back to top]
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
