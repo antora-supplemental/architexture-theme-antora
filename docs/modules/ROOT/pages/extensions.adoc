@@ -102,20 +102,17 @@ Kroki renders diagrams from text—Mermaid, PlantUML, D2, and dozens more.
 These generate SVGs that may need dark-mode-aware colors.
 ****
 
-Here's a Mermaid flowchart (requires Kroki or native Mermaid integration):
+Here's a portable themed artifact and its canonical Mermaid source:
+
+[.themed-svg]
+image::diagrams/decision-flow.svg[Decision flow]
 
 [source,mermaid]
 ----
-graph LR
-    A[Start] --> B{Decision}
-    B -->|Yes| C[Action 1]
-    B -->|No| D[Action 2]
-    C --> E[End]
-    D --> E
+include::../images/diagrams/decision-flow.mmd[]
 ----
 
-CAUTION: Diagram colors are defined in the diagram source, not CSS.
-For dark mode compatibility, use neutral colors or theme-aware palettes in your diagram definitions.
+The byte-identical sources, manifests, and artifacts are distribution copies from `valentus-theme`; they remain local so this archived theme has no cross-repository build dependency.
 --
 
 '''
@@ -124,23 +121,19 @@ For dark mode compatibility, use neutral colors or theme-aware palettes in your 
 --
 [.right.text-right]
 ****
-.PlantUML Sequence
-PlantUML excels at sequence diagrams, class diagrams, and more.
-The default colors are light-theme oriented.
+.Mermaid Sequence
+Mermaid keeps the sequence example in the same canonical source and artifact pipeline as the flowchart.
 ****
 
-[source,plantuml]
+[.themed-svg]
+image::diagrams/authentication-sequence.svg[Authentication sequence]
+
+[source,mermaid]
 ----
-@startuml
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
-Alice -> Bob: Another request
-Bob --> Alice: Another response
-@enduml
+include::../images/diagrams/authentication-sequence.mmd[]
 ----
 
-TIP: PlantUML supports `skinparam` for theming.
-Use `skinparam backgroundColor transparent` and dark-friendly colors for better results.
+TIP: Update these distribution copies from the canonical Valentus examples when their source or palette changes.
 --
 
 '''
