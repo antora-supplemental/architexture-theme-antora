@@ -1,13 +1,10 @@
 = Changelog
 
-== 2026-09-10 -- Publish robots.txt with sitemap
-
-* Antora `site.robots` now emits `/robots.txt` with an absolute `Sitemap:` line for the production host.
-
 Release notes for tags. Detailed design history: `docs/modules/ROOT/pages/changelog.adoc`.
 
 == [Unreleased]
 
+* *Docs / SEO:* Antora `site.robots` now emits `/robots.txt` with an absolute `Sitemap:` line for the production host.
 * *Diagrams:* Replace the duplicated PlantUML sequence with canonical Mermaid and retain local copies of the Valentus Themed SVG manifests and adaptive/host artifacts. The example site progressively upgrades `.themed-svg` roles with the pinned sanitized runtime.
 * *npm registry:* Formal deprecation notice in `README.md` and `deprecated` field; maintainer steps in `docs/maintainers/npm-registry-notice.md`.
 * *Distribution:* GitHub Releases ship `ui-bundle.zip` only (no npm). Bundle-first docs; npm deprecation page for migration and lessons learned.
