@@ -3,6 +3,10 @@ site:
   title: architexture-theme
   url: https://antora-supplemental.github.io/architexture-theme
   start_page: architexture-theme:guide:index.adoc
+  robots: |
+    User-agent: *
+    Allow: /
+    Sitemap: https://antora-supplemental.github.io/architexture-theme/sitemap.xml
   keys:
     header_kicker: Documentation
     header_doc_title: architexture-theme
